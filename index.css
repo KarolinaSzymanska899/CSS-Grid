@@ -1,11 +1,14 @@
 .container {
   display: grid;
   grid-template-columns: 30% 70%;
-  grid-template-rows: 10% 90%;
+  grid-template-rows: 40% 60%;
   grid-gap: 10px;
   min-height: 400px;
+  margin: 15px;
 }
 
 .container p {
   background: lightblue;
+  text-align: left;
+  vertical-align: middle;
 }
