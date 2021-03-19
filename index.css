@@ -4,11 +4,11 @@
   grid-template-rows: 40% 60%;
   grid-gap: 10px;
   min-height: 400px;
-  margin: auto 0;
+  justify-content: center;
+  align-content: center;
 }
 
-.container span {
+.container p {
   background: lightblue;
-  text-align: left;
-  vertical-align: middle;
+  text-align: center;
 }
